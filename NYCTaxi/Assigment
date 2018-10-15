@@ -1,4 +1,5 @@
-NYC Taxi Dataset
+###NYC Taxi Dataset###
+
 The first assignment is to answer some basic questions about a sample of the "NYC Taxi Dataset". The URLs were taken from https://github.com/toddwschneider/nyc-taxi-data/.
 
 Notice that, even though we will use only a subset, this needs around 2 GB of RAM, plus a margin to do the analysis! if your computer is not capable enough, you can use https://colab.research.google.com/, which gives you a Jupyter installation with 12 GB of RAM for free.
