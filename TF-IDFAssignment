@@ -1,9 +1,0 @@
-Exercise: TF-IDF
-
-    1.Write a function tf that receives a string and a spaCy Doc and returns the number of times the word appears in the lemmatized Doc
-    2.Write a function idf that receives a string and a list of spaCy Docs and returns the inverse of the number of docs that contain the word
-    3.Write a function tf_idf that receives a string, a spaCy Doc and a list of spaCy Docs and returns the product of tf(t, d) · idf(t, D).
-    4.Write a function all_lemmas that receives a list of Docs and returns a set of all available lemmas
-    5.Write a function tf_idf_doc that receives a Doc and a list of Docs and returns a dictionary of {lemma: TF-IDF value}, corresponding to each the lemmas of all the available documents
-    6.Write a function tf_idf_scores that receives a list of Docs and returns a DataFrame displaying the lemmas in the columns and the documents in the rows.
-    7.Visualize the TF-IDF, like this:
