@@ -1,0 +1,13 @@
+This assignment builds upon the work we did during the visualization session. Starting from the basic scatter 
+plot that we did (life expectancy versus fertility, colored by region, and with bubble size proportional to population), 
+do the following:
+
+1.Decorate the figure with proper X and Y axis labels, a title, a big text showing the year, and a legend (if not present).
+Note: If the legend does not show the colors, upgrade plotly to the latest version
+
+2.Create a function update_year that receives a year as an integer and updates the data of the existing figure with 
+the values from the selected year. Note: The update might not be very efficient
+
+3.Create an horizontal slider that ranges from the minimum to the maximum year
+
+4.Bind the update_year function to changes in the horizontal slider and use it to interactively change the plot
