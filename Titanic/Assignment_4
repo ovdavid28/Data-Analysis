@@ -1,0 +1,17 @@
+The task is to predict survival on board of the Titanic:
+
+https://www.kaggle.com/c/titanic/
+
+The key column is the Age, which has some missing values, so you will need some imputation strategy.
+
+Scoring for this assignment goes as follows:
+
+1 point for the preliminary data analysis (proper data reading, basic statistics, visualization)
+
+2 points for feature engineering (imputation of missing values in the Age column, creation of new features)
+
+1 point for the machine learning process (algorithm selection, final test score)
+
+Rules:
+
+Datasets train.csv and test.csv from https://www.kaggle.com/c/titanic/data must be used, no other sources You cannot use machine learning algorithms for the feature engineering part, only manual techniques. This rules out KNN for imputation, Deep Learning, sklearn.preprocessing.Imputer, fancyimpute, missingno, and similar The format of the delivery must: be a Jupyter notebook whose name should contain the surnames of the students in the group run, top to bottom, without errors on a capable computer with Python 3.6 If you don't manage to get it working, document what approaches did you try, and explain the errors. Do not deliver an unfinished notebook without explanations.
